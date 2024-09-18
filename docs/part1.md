@@ -19,7 +19,12 @@ $ go mod init github.com/{あなたのGitHubアカウント名}/golang-handson/g
 
 それでは、Go 言語で最初のプログラムを書いてみましょう。ここでは、"Hello World"を出力する簡単なプログラムを作成します。
 
-`main.go`というファイルを作成し、以下のコードを入力してください。
+`hello-world/main.go`というファイルを作成し、以下のコードを入力してください。
+
+```bash
+$ mkdir hello-world
+$ cd hello-world
+```
 
 ```go
 package main
@@ -44,15 +49,16 @@ $ go run main.go
 次に、このプログラムをビルドして、生成されたバイナリを実行してみましょう。
 
 ```
-'app'という名前のバイナリを作成
+# 'app'という名前のバイナリを作成
 $ go build -o app main.go
 ```
 
 ```
 # 生成したバイナリを実行
 $ ./app
-このコマンドも"Hello World!"と出力すれば、ビルドと実行が正常に行われています。
 ```
+
+このコマンドも"Hello World!"と出力すれば、ビルドと実行が正常に行われています。
 
 ## Go 言語の特徴
 
