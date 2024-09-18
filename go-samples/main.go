@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/ca-groupit/hrk-m/golang-handson/go-samples/hello-world"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	hello.SayHelloWorld()
 }
