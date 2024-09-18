@@ -2,7 +2,7 @@
 
 ```
 $ go version
-go version go1.21.3 darwin/arm64
+go version go1.22.3 darwin/arm64
 ```
 
 ## Go 言語インストール方法
